@@ -7,7 +7,7 @@ class CreateEmployee extends React.Component {
         super(props);
         this.state = {
             name: ''
-        };
+        }
     }
 
     changeName = (event) => {
